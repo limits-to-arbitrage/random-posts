@@ -1,5 +1,5 @@
-## Deriving the formula for reducible vs. irreducible error on page 28
-On page 28/613, when discussing the difference between reducible and irreducible error, the text notes that
+## Deriving the formula for reducible vs. irreducible error on page 18
+On page 18, when discussing the difference between reducible and irreducible error, the text notes that
 
 ```math
 E(Y-\hat{Y})^2=\big(f(X)-\hat{f}(X)\big)^2+Var(\varepsilon)
