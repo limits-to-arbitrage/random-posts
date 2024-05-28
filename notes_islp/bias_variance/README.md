@@ -9,7 +9,7 @@ First rewrite the left-hand side of the given equation as
 ```math
 E\big[\big(y_0-\hat{f}(x_0)\big)^2\big].
 ```
-Then expand the above as
+Then, expand the above as
 ```math
 E\big[\big(y_0-\hat{f}(x_0)\big)^2\big]=E\big[y^2_0-2y_0\hat{f}(x_0)+\hat{f}^2(x_0)\big].
 ```
@@ -25,7 +25,7 @@ Similarly, as $y_0=f(x_0)+\varepsilon$, we have that $E[y_0\hat{f}(x_0)]=E[(f(x_
 ```math
 =f^2(x_0)+Var(\varepsilon)-2f(x_0)E[\hat{f}(x_0)]+E[\hat{f}^2(x_0)].
 ```
-Then as $Var(\hat{f}(x_0))=E[\hat{f}^2(x_0)]-E[\hat{f}(x_0)]^2\Rightarrow E[\hat{f}^2(x_0)]=Var(\hat{f}(x_0))+E[\hat{f}(x_0)]^2$, the above can be written as
+Then, as $Var(\hat{f}(x_0))=E[\hat{f}^2(x_0)]-E[\hat{f}(x_0)]^2\Rightarrow E[\hat{f}^2(x_0)]=Var(\hat{f}(x_0))+E[\hat{f}(x_0)]^2$, the above can be written as
 ```math
 =f^2(x_0)+Var(\varepsilon)-2f(x_0)E[\hat{f}(x_0)]+Var(\hat{f}(x_0))+E[\hat{f}(x_0)]^2.
 ```
