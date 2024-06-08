@@ -5,7 +5,7 @@ E\big(y_0-\hat{f}(x_0)\big)^2=Var\big(\hat{f}(x_0)\big)+\big[Bias(\hat{f}(x_0))\
 ```
 but does not provide a derviation. A simple derivation follows.
 
-First rewrite the left-hand side of the given equation as
+First, rewrite the left-hand side of the given equation as
 ```math
 E\big[\big(y_0-\hat{f}(x_0)\big)^2\big].
 ```
