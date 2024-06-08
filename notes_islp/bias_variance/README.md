@@ -13,7 +13,7 @@ Then, expand the above as
 ```math
 E\big[\big(y_0-\hat{f}(x_0)\big)^2\big]=E\big[y^2_0-2y_0\hat{f}(x_0)+\hat{f}^2(x_0)\big].
 ```
-By the linearity of expetation, the above is equal to
+By the linearity of expectation, the above is equal to
 ```math
 =E[y^2_0]-2E[y_0\hat{f}(x_0)]+E[\hat{f}^2(x_0)].
 ```
